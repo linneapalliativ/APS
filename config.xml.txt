@@ -16,5 +16,6 @@
     <author href="https://palliativ.se" email="linnea.gunnarsson@palliativ.se">
        Linnéa Gunnarsson
     </author>
+ <icon src="abs_logga.png" />
 
 </widget>
