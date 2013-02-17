@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.AbbeyPainScale"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Abbey Pain Scale</name>
+
+    <description>
+        En applikation för bedömning av smärta.
+    </description>
+
+    <author href="https://palliativ.se" email="linnea.gunnarsson@palliativ.se">
+       Linnéa Gunnarsson
+    </author>
+
+</widget>
