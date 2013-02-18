@@ -25,29 +25,29 @@ var arr1 = $("input:radio:checked + label").map(function(a, i) {
 			if (sum <= 2)
 			{
 				document.getElementById("headmessage").innerHTML="Validering";
-				document.getElementById("contentmessage").innerHTML="Ingen smärta";
-				document.getElementById("problemlistq").innerHTML ="<h2>Sammanfattning</h2>"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 18</h3>";
+				document.getElementById("contentmessage").innerHTML="<h2>Ingen smärta</h2>";
+				document.getElementById("problemlistq").innerHTML ="Sammanfattning"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 18</h3>";
 				window.location = "#page";
 			}
 			if (sum <= 7 && sum >= 3)
 			{
 				document.getElementById("headmessage").innerHTML="Validering";
-				document.getElementById("contentmessage").innerHTML="Mild smärta";
-				document.getElementById("problemlistq").innerHTML ="<h2>Sammanfattning</h2>"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 18</h3>";
+				document.getElementById("contentmessage").innerHTML="<h2>Mild smärta</h2>";
+				document.getElementById("problemlistq").innerHTML ="Sammanfattning"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 18</h3>";
 				window.location = "#page";
 			}
 			if (sum <= 13 && sum >= 8)
 			{
 				document.getElementById("headmessage").innerHTML="Validering";
-				document.getElementById("contentmessage").innerHTML="Måttlig smärta";
-				document.getElementById("problemlistq").innerHTML ="<h2>Sammanfattning</h2>"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 18</h3>";
+				document.getElementById("contentmessage").innerHTML="<h2>Måttlig smärta</h2>";
+				document.getElementById("problemlistq").innerHTML ="Sammanfattning"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 18</h3>";
 				window.location = "#page";
 			}
 			if (sum >= 14)
 			{
-				document.getElementById("problemlistq").innerHTML ="<h2>Sammanfattning</h2>"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 27</h3>";
+				document.getElementById("problemlistq").innerHTML ="Sammanfattning"+ arr1 + "<br/ ><h3>Summa: "+ sum+ " av 27</h3>";
 				document.getElementById("headmessage").innerHTML="Validering";
-				document.getElementById("contentmessage").innerHTML="Svår smärta!";
+				document.getElementById("contentmessage").innerHTML="<h2>Svår smärta!</h2>";
 				window.location = "#page11";	
 			}
 	}
