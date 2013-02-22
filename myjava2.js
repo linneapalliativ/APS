@@ -4,6 +4,9 @@ function clearform () {
 		$(".questions").each(function()
 		{
 			$(this).attr('checked', false).checkboxradio("refresh");
+			document.getElementById("problemlistq").innerHTML = "";
+			document.getElementById("headmessage").innerHTML="";
+			document.getElementById("contentmessage").innerHTML="";
 		});
 }
 
