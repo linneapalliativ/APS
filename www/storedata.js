@@ -61,8 +61,7 @@ function getData(){
     							}).appendTo(".results ul").trigger('create');
   						})(row['personId'], row['personName'], row['bed'], row['datum']);									  				}
 		}
-		,errorHandler);
-					   
+		,errorHandler);					   
     });
 }
 
