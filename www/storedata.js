@@ -91,6 +91,16 @@ function nullData()
 
 $(document).ready(function()
 {
+	$(".external").bind("click", function()
+{
+	if (this.href)
+	{
+		// Ensure that loading a new page doesn't open
+		// a new window
+		location.href = this.href;
+		return false;
+	}
+});
     //Bind events to the buttons to fire off the functions   
 	$('#page13').live('pageshow',function(event, ui){
 		getData();
